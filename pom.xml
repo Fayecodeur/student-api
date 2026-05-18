@@ -50,9 +50,10 @@
         </dependency>
     </dependencies>
 
- <build>
+  <build>
     <plugins>
 
+        <!-- Spring Boot -->
         <plugin>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-maven-plugin</artifactId>
@@ -64,6 +65,7 @@
             <artifactId>jacoco-maven-plugin</artifactId>
             <version>0.8.11</version>
             <executions>
+
                 <execution>
                     <goals>
                         <goal>prepare-agent</goal>
@@ -97,6 +99,7 @@
                             </rule>
                         </rules>
                     </configuration>
+
                 </execution>
             </executions>
         </plugin>
@@ -110,7 +113,6 @@
             <executions>
                 <execution>
                     <phase>verify</phase>
-
                     <goals>
                         <goal>check</goal>
                     </goals>

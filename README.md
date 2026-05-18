@@ -4,6 +4,7 @@ API REST Spring Boot pour la gestion d'étudiants — TP Intégration Continue a
 
 **Module** : Livraison Continue (2IDA2103) — Master 1 UNCHK  
 **Auteur** : Dr. Mouhamadou Lamine DIAKHAME
+**Etudiant** : Demba Faye
 
 ## Prérequis
 
@@ -30,12 +31,12 @@ mvn verify
 
 ## Endpoints
 
-| Méthode | URL                    | Description              |
-|---------|------------------------|--------------------------|
-| GET     | /api/students          | Liste tous les étudiants |
-| GET     | /api/students/{id}     | Récupère un étudiant     |
-| POST    | /api/students          | Crée un étudiant         |
-| DELETE  | /api/students/{id}     | Supprime un étudiant     |
+| Méthode | URL                | Description              |
+| ------- | ------------------ | ------------------------ |
+| GET     | /api/students      | Liste tous les étudiants |
+| GET     | /api/students/{id} | Récupère un étudiant     |
+| POST    | /api/students      | Crée un étudiant         |
+| DELETE  | /api/students/{id} | Supprime un étudiant     |
 
 ## Exemple de requête POST
 
